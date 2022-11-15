@@ -5,7 +5,7 @@ import picture from '../../assets/pessoa.webp';
 export function HomeHero() {
   return (
     <Container>
-      <img src={picture} alt="Foro Michael" />
+      <img src={picture} alt="Foto Michael" />
       <div>
         <TextContainer>
           <h1>Hello</h1>

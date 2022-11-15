@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { NavLinkContainer } from './styles';
 
-interface Props {
+interface NavLinkProps {
   tittle: string;
   path: string;
 }
 
-export default function NavLink({ tittle, path }: Props) {
+export default function NavLink({ tittle, path }: NavLinkProps) {
   const router = useRouter();
 
   const isActive = router.pathname === path;
